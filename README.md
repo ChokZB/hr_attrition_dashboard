@@ -52,6 +52,8 @@ It includes **1,480 employee records** with fields such as:
 
 4. **Voila-compatible**: The notebook is fully structured for Voila deployment, turning it into a standalone web application without exposing any notebook code.
 
+---
+
 ## 📁 Project Structure
 
 ```
