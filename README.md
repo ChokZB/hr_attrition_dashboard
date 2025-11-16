@@ -2,8 +2,8 @@
 
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![Python](https://img.shields.io/badge/Python-3.8+-yellow)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ChokZB/hr-attrition-dashboard/blob/main/hr_attrition_dashboard.ipynb)
-[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChokZB/hr-attrition-dashboard/HEAD?urlpath=voila/render/hr_attrition_dashboard.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ChokZB/hr_attrition_dashboard/blob/main/hr_attrition_dashboard.ipynb)
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChokZB/hr_attrition_dashboard/HEAD?urlpath=voila/render/hr_attrition_dashboard.ipynb)
 [![Voila](https://img.shields.io/badge/Launch%20App-Voila-orange)](
 https://mybinder.org/v2/gh/ChokZB/hr_attrition_dashboard/HEAD?urlpath=voila/render/hr_attrition_dashboard.ipynb)
 
@@ -33,7 +33,7 @@ Analysing attrition helps companies understand:
 
 ---
 
-## 📦 Dataset Overview
+## 🗃️ Dataset
 
 The dataset used in this project is a **HR Employee Attrition dataset**, originally found on Kaggle (exact source link not available anymore).
 
@@ -110,7 +110,7 @@ hr_attrition_dashboard/
 
    or open it directly in Google Colab. 
 
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ChokZB/hr-attrition-dashboard/blob/main/hr_attrition_dashboard.ipynb)
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ChokZB/hr_attrition_dashboard/blob/main/hr_attrition_dashboard.ipynb)
 
 4. **Run the cell, the dashboard interface will appear inside the notebook.**
 
@@ -140,7 +140,7 @@ Your browser will open a fully interactive dashboard web app (no notebook interf
 
 Click the button below to run the notebook instantly in the cloud (no installation needed):
 
-[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChokZB/hr-attrition-dashboard/HEAD?urlpath=voila/render/hr_attrition_dashboard.ipynb)
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChokZB/hr_attrition_dashboard/HEAD?urlpath=voila/render/hr_attrition_dashboard.ipynb)
 
 ---
 
