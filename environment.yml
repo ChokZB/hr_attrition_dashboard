@@ -1,0 +1,14 @@
+name: hr-attrition-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - ipywidgets
+  - voila
+  - pip
+  - pip:
+      - traitlets
