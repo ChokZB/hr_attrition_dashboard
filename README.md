@@ -3,13 +3,11 @@
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![Python](https://img.shields.io/badge/Python-3.8+-yellow)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ChokZB/hr_attrition_dashboard/blob/main/hr_attrition_dashboard.ipynb)
-[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChokZB/hr_attrition_dashboard/main?labpath=hr_attrition_dashboard.ipynb)
-[![Launch Voila](https://img.shields.io/badge/Launch%20App-Voila-orange)](https://mybinder.org/v2/gh/ChokZB/hr_attrition_dashboard/main?urlpath=voila/render/hr_attrition_dashboard.ipynb)
+[![Launch Voila](https://img.shields.io/badge/Launch%20App-Voila-orange)](https://mybinder.org/v2/gh/ChokZB/hr_attrition_dashboard/HEAD?urlpath=voila/render/hr_attrition_dashboard.ipynb)
 
 
 
-This project is an **interactive HR Attrition Dashboard** built using Jupyter Notebook, `ipywidgets`, `matplotlib`, `seaborn`, and `Voila`.
-It allows users to explore key HR metrics such as attrition, demographics, job satisfaction, and employee engagement.
+This project is an **interactive HR Attrition Dashboard** built using Jupyter Notebook, `ipywidgets`, `matplotlib`, and `seaborn`. It allows users to explore key HR metrics such as attrition, demographics, job satisfaction, and employee engagement.
 
 The dashboard behaves like a **web application**, letting users filter employees dynamically by:
 
@@ -70,20 +68,22 @@ hr_attrition_dashboard/
 │
 ├── .gitignore                        # Files/folders excluded from Git
 │
+├── environment.yml                   # Conda environment for Binder/Voila and local setup
+│
 ├── LICENSE                           # MIT License
 │
 ├── README.md                         # Project overview and instructions
 │
 ├── hr_attrition_dashboard.ipynb      # Main dashboard notebook
 │
-├── requirements.txt                  # Dependency list for reproducibility
-│
-└── runtime.txt                       # Specify Python version for Binder
+└── runtime.txt                       # Specify Python version for Binder/Voila
 ```
 
 ---
 
-## 💻 Setup & Execution
+## 🔧 Setup & Execution
+
+This project can be run in several ways depending on preference, from local development to cloud execution. The options below are arranged from most flexible to most convenient.
 
 ### Option 1: Run Locally (Recommended for Development)
 
@@ -96,10 +96,9 @@ hr_attrition_dashboard/
 
 2. **Install dependencies**
 
-   Install all required packages using the provided `requirements.txt`:
-
    ```bash
-   pip install -r requirements.txt
+   conda env create -f environment.yml
+   conda activate hr-attrition-env
    ```
 
 3. **Run the notebook**
@@ -108,17 +107,13 @@ hr_attrition_dashboard/
    jupyter notebook hr_attrition_dashboard.ipynb
    ```
 
-   or open it directly in Google Colab. 
-
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ChokZB/hr_attrition_dashboard/blob/main/hr_attrition_dashboard.ipynb)
-
-4. **Run the cell, the dashboard interface will appear inside the notebook.**
+   The dashboard interface will appear inside the notebook after running all cells.
 
 ---
 
-### Option 2: Run as a Web Application (Voila)
+### Option 2: Run Locally with Voila (View as a Clean Web App)
 
-Voila converts the notebook into a clean UI with no code or notebook cells visible.
+Voila turns the notebook into a standalone web application with no visible code.
 
 1. **Install Voila**
 
@@ -132,15 +127,25 @@ Voila converts the notebook into a clean UI with no code or notebook cells visib
    voila hr_attrition_dashboard.ipynb
    ```
 
-Your browser will open a fully interactive dashboard web app (no notebook interface).
+   A browser window will open displaying the dashboard as a full interactive app.
 
 ---
 
-### Option 3: Launch in Browser (Binder)
+### Option 3: Run in Google Colab (No Installation Needed)
 
-Click the button below to run the notebook instantly in the cloud (no installation needed):
+Open the notebook directly in Colab:
 
-[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChokZB/hr_attrition_dashboard/HEAD?urlpath=voila/render/hr_attrition_dashboard.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ChokZB/hr_attrition_dashboard/blob/main/hr_attrition_dashboard.ipynb)
+
+---
+
+### Option 4: Run in the Browser via Voila (Cloud Execution)
+
+Launch the dashboard as a web application using the Voila badge below:
+
+[![Launch Voila](https://img.shields.io/badge/Launch%20App-Voila-orange)](https://mybinder.org/v2/gh/ChokZB/hr_attrition_dashboard/HEAD?urlpath=voila/render/hr_attrition_dashboard.ipynb)
+
+The dashboard will open in the browser after Binder finishes preparing the environment, which may take a few minutes during the first load.
 
 ---
 
