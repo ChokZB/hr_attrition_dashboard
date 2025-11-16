@@ -3,9 +3,9 @@
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![Python](https://img.shields.io/badge/Python-3.8+-yellow)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ChokZB/hr_attrition_dashboard/blob/main/hr_attrition_dashboard.ipynb)
-[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChokZB/hr_attrition_dashboard/HEAD?urlpath=voila/render/hr_attrition_dashboard.ipynb)
-[![Voila](https://img.shields.io/badge/Launch%20App-Voila-orange)](
-https://mybinder.org/v2/gh/ChokZB/hr_attrition_dashboard/HEAD?urlpath=voila/render/hr_attrition_dashboard.ipynb)
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChokZB/hr_attrition_dashboard/main?labpath=hr_attrition_dashboard.ipynb)
+[![Launch Voila](https://img.shields.io/badge/Launch%20App-Voila-orange)](https://mybinder.org/v2/gh/ChokZB/hr_attrition_dashboard/main?urlpath=voila/render/hr_attrition_dashboard.ipynb)
+
 
 
 This project is an **interactive HR Attrition Dashboard** built using Jupyter Notebook, `ipywidgets`, `matplotlib`, `seaborn`, and `Voila`.
