@@ -3,9 +3,6 @@
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![Python](https://img.shields.io/badge/Python-3.8+-yellow)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ChokZB/hr_attrition_dashboard/blob/main/hr_attrition_dashboard.ipynb)
-[![Launch Voila](https://img.shields.io/badge/Launch%20App-Voila-orange)](https://mybinder.org/v2/gh/ChokZB/hr_attrition_dashboard/HEAD?urlpath=voila/render/hr_attrition_dashboard.ipynb)
-
-
 
 This project is an **interactive HR Attrition Dashboard** built using Jupyter Notebook, `ipywidgets`, `matplotlib`, and `seaborn`. It allows users to explore key HR metrics such as attrition, demographics, job satisfaction, and employee engagement.
 
@@ -68,15 +65,13 @@ hr_attrition_dashboard/
 │
 ├── .gitignore                        # Files/folders excluded from Git
 │
-├── environment.yml                   # Conda environment for Binder/Voila and local setup
+├── environment.yml                   # Conda environment for local setup
 │
 ├── LICENSE                           # MIT License
 │
 ├── README.md                         # Project overview and instructions
 │
-├── hr_attrition_dashboard.ipynb      # Main dashboard notebook
-│
-└── runtime.txt                       # Specify Python version for Binder/Voila
+└── hr_attrition_dashboard.ipynb      # Main dashboard notebook
 ```
 
 ---
@@ -136,16 +131,6 @@ Voila turns the notebook into a standalone web application with no visible code.
 Open the notebook directly in Colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ChokZB/hr_attrition_dashboard/blob/main/hr_attrition_dashboard.ipynb)
-
----
-
-### Option 4: Run in the Browser via Voila (Cloud Execution)
-
-Launch the dashboard as a web application using the Voila badge below:
-
-[![Launch Voila](https://img.shields.io/badge/Launch%20App-Voila-orange)](https://mybinder.org/v2/gh/ChokZB/hr_attrition_dashboard/HEAD?urlpath=voila/render/hr_attrition_dashboard.ipynb)
-
-The dashboard will open in the browser after Binder finishes preparing the environment, which may take a few minutes during the first load.
 
 ---
 
