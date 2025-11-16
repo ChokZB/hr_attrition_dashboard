@@ -8,7 +8,12 @@ dependencies:
   - matplotlib
   - seaborn
   - ipywidgets
+  - widgetsnbextension
+  - jupyterlab_widgets
+  - scipy
+  - statsmodels
   - voila
+  - traitlets
   - pip
   - pip:
-      - traitlets
+      - requests
