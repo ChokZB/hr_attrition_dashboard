@@ -30,6 +30,8 @@ Analysing attrition helps companies understand:
 
 ## 🗃️ Dataset
 
+**File:** [`data/hr_analytics.csv`](data/hr_analytics.csv)
+
 The dataset used in this project is a **HR Employee Attrition dataset**, originally found on Kaggle (exact source link not available anymore).
 
 It includes **1,480 employee records** with fields such as:
