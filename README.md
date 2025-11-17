@@ -52,7 +52,7 @@ It includes **1,480 employee records** with fields such as:
 
 3. **Clean, user-friendly UI**: Using `VBox`, `HBox`, and structured layout design, the filters and charts are arranged into a dashboard-like interface that feels similar to BI tools (Power BI/Tableau).
 
-4. **Voila-compatible**: The notebook is fully structured for Voila deployment, turning it into a standalone web application without exposing any notebook code.
+4. **Voilá-compatible**: The notebook is fully structured for Voilá deployment, turning it into a standalone web application without exposing any notebook code.
 
 ---
 
@@ -110,11 +110,11 @@ This project can be run in several ways depending on preference, from local deve
 
 ---
 
-### Option 2: Run Locally with Voila (View as a Clean Web App)
+### Option 2: Run Locally with Voilá (View as a Clean Web App)
 
-Voila turns the notebook into a standalone web application with no visible code.
+Voilá turns the notebook into a standalone web application with no visible code.
 
-1. **Install Voila**
+1. **Install Voilá**
 
    ```bash
    pip install voila
@@ -143,7 +143,7 @@ Open the notebook directly in Colab:
 This project demonstrates:
 
 * Building interactive dashboards entirely in Python
-* Web-app-style interfaces with ipywidgets + Voila
+* Web-app-style interfaces with ipywidgets + Voilá
 * Data preprocessing, visualisation, and UI engineering
 * Real-world HR domain analytics
 * Visual storytelling with multiple chart types
