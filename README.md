@@ -67,11 +67,11 @@ hr_attrition_dashboard/
 │
 ├── .gitignore                        # Files/folders excluded from Git
 │
-├── environment.yml                   # Conda environment for local setup
-│
 ├── LICENSE                           # MIT License
 │
 ├── README.md                         # Project overview and instructions
+│
+├── environment.yml                   # Conda environment for local setup
 │
 └── hr_attrition_dashboard.ipynb      # Main dashboard notebook
 ```
