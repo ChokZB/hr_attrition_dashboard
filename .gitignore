@@ -26,3 +26,7 @@ dist/
 
 # Voila temporary files
 voila/
+
+# Ignore future changes to the dataset
+# (Files remain in repository from the first commit)
+data/
